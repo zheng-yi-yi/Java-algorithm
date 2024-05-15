@@ -2,7 +2,14 @@ package cn.zhengyiyi.algorithm.p01_binary_search;
 
 import java.util.Arrays;
 import java.util.Random;
-
+/**
+ * 二分搜索：基础实现
+ *
+ * 二分搜索是一种在有序数组中查找特定元素的搜索算法。
+ * 搜索过程从数组的中间元素开始，如果中间元素正好是目标值，则搜索结束；
+ * 如果目标值大于或小于中间元素，则在数组大于或小于中间元素的那一半中查找。
+ * 通过这种方式，每次比较都使搜索范围减半，直到找到目标值，或搜索范围为空。
+ */
 public class Code_01_Basic {
     /**
      * 二分搜索
