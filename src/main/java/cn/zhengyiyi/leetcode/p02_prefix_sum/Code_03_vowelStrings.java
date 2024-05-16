@@ -1,4 +1,4 @@
-package cn.zhengyiyi.leetcode.p04_memoization;
+package cn.zhengyiyi.leetcode.p02_prefix_sum;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -32,7 +32,7 @@ import java.util.Set;
  * 1 <= queries.length <= 10^5
  * 0 <= queries[j][0] <= queries[j][1] < words.length
  */
-public class Code_02_vowelStrings {
+public class Code_03_vowelStrings {
     public static int[] vowelStrings(String[] words, int[][] queries) {
         Set<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u'));
         int[] prefixSum = new int[words.length + 1];
