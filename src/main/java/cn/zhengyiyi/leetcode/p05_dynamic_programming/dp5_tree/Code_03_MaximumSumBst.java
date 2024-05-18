@@ -16,7 +16,7 @@ package cn.zhengyiyi.leetcode.p05_dynamic_programming.dp5_tree;
  * 输出：2
  * 解释：键值为 2 的单节点子树是和最大的二叉搜索树。
  */
-public class Code_02_MaximumSumBst {
+public class Code_03_MaximumSumBst {
 	public static class TreeNode {
 		public int val;
 		public TreeNode left;
