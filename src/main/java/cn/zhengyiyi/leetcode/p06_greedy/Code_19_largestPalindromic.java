@@ -1,7 +1,5 @@
 package cn.zhengyiyi.leetcode.p06_greedy;
 
-import java.util.Arrays;
-
 /**
  * <a href="https://leetcode.cn/problems/largest-palindromic-number/description/">2384. 最大回文数字</a>
  * 给你一个仅由数字（0 - 9）组成的字符串 num 。
